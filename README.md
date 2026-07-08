@@ -1,64 +1,68 @@
 # Solidity
 
-`solidity` is a smart-contract project with Solidity sources and supporting JavaScript/TypeScript tooling for local development, testing, and deployment.
+## Project Tags
+
+- `Protocol`
+
+## Overview
+
+Solidity is a Solidity practice repository with smart-contract examples.
 
 ## Features
 
-- Smart contract source, deployment, or test workflow
+- Smart contracts, deployment scripts, or protocol code
 
 ## Tech Stack
 
 - Solidity
-- Hardhat
 
 ## Project Structure
 
-- `.deps` - project directory
-- `README.md` - project documentation
-- `Smart_wallet_Basicproject.sol` - project file
-- `modifiers.sol` - project file
-- `msg_sender.sol` - project file
+- `.deps` - project file or directory
+- `Smart_wallet_Basicproject.sol` - project file or directory
+- `modifiers.sol` - project file or directory
+- `msg_sender.sol` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
-- A configured Web3 wallet or RPC endpoint when deploying contracts
+- Git
+- Wallet/RPC access for deployed contract workflows
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/solidity.git
 cd solidity
 ```
 
-Add the project source files, then document the exact setup and run commands here.
+Add implementation-specific install and run commands here as the project grows.
 
-## Available Commands
+## Commands
 
-- No package scripts were detected in the current repository contents.
+- No automated command set is declared yet; document commands here as tooling is added.
 
 ## Configuration
 
-- Create a local `.env` file for secrets, API keys, RPC URLs, private keys, bot tokens, or database credentials.
-- Keep `.env` files out of version control and document required variable names as the project stabilizes.
+- Store private keys, RPC URLs, wallet mnemonics, and API keys in a local `.env` file only.
 
 ## Testing and Quality
 
-- Run the Hardhat test suite if the repo includes contract tests.
+- No automated test workflow is declared yet; add tests and document the command here as the project matures.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
